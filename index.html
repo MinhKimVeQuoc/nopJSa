@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- TÍNH LƯƠNG NHÂN VIÊN -->
+    <div class="card">
+        <div class="card-header">
+            BẢNG LƯƠNG NHÂN VIÊN
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-group">
+
+                        <div class="form-group">
+                            <label>Nhân viên:</label>
+                            <input id="staff" value="" class="form-control" type="text">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Số ngày làm:</label>
+                            <input id="workingDate" value="" class="form-control" type="text">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Lương 1 ngày:</label>
+                            <input id="oneDaySalary" class="form-control" value="100000" type="text"
+                                placeholder="100.000 VND" disabled>
+                        </div>
+
+                    </div>
+                    <button id="btnToTalSalary" class="btn btn-success py-2 px-4">Total</button>
+                </div>
+                <div id="infoSalary" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ĐỔI USD RA VND -->
+
+    <div class="card">
+        <div class="card-header">
+            ĐỔI USD SANG VND
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-group">
+
+                        <div class="form-group">
+                            <label>USD:</label>
+                            <input id="usd" value="" class="form-control" type="text">
+                        </div>
+
+  
+                        <div class="form-group">
+                            <label>VND: </label>
+                            <input id="vnd" class="form-control" value="" type="text"
+                            placeholder="23.500 VND" disabled>
+                        </div>
+
+                    </div>
+                    <button id="btnToTalCurrency" class="btn btn-success py-2 px-4">Total</button>
+                </div>
+                <div id="infoCurrency" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- TÍNH DIỆN TÍCH CHU VI HÌNH CHỮ NHẬT -->
+    <div class="card">
+        <div class="card-header">
+            TÍNH DIỆN DIỆN TÍCH CHU VI HÌNH CHỮ NHẬT
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-group">
+
+                        <div class="form-group">
+                            <label>Chiều dài:</label>
+                            <input id="longs" value="" class="form-control" type="text">
+                        </div>
+
+  
+                        <div class="form-group">
+                            <label>Chiều rộng: </label>
+                            <input id="width" value="" class="form-control" type="text">
+                        </div>
+
+                    </div>
+                    <button id="btnToTalRectangle" class="btn btn-success py-2 px-4">Total</button>
+                </div>
+                <div id="infoRectangle" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- TÍNH TỔNG KÝ SỐ -->
+     <!-- <div class="card">
+        <div class="card-header">
+            TÍNH TỔNG KÝ SỐ
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-group">
+
+                        <div class="form-group">
+                            <label>nhập số:</label>
+                            <input id="number" value="" class="form-control" type="text">
+                        </div>
+
+                    </div>
+                    <button id="btnToTalNumber" class="btn btn-success py-2 px-4">Total</button>
+                </div>
+                <div id="infoNumber" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
